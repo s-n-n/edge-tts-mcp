@@ -15,7 +15,7 @@
 ### 2. Клонируй и установи
 ```cmd
 cd %USERPROFILE%
-git clone https://github.com/YOUR_USERNAME/edge-tts-mcp.git
+git clone https://github.com/s-n-n/edge-tts-mcp.git
 cd edge-tts-mcp
 python -m venv venv
 venv\Scripts\activate
@@ -45,7 +45,7 @@ brew install python
 ### 2. Клонируй и установи
 ```bash
 cd ~
-git clone https://github.com/YOUR_USERNAME/edge-tts-mcp.git
+git clone https://github.com/s-n-n/edge-tts-mcp.git
 cd edge-tts-mcp
 python3 -m venv venv
 source venv/bin/activate
@@ -75,7 +75,7 @@ sudo apt install python3 python3-venv ffmpeg
 ### 2. Клонируй и установи
 ```bash
 cd ~
-git clone https://github.com/YOUR_USERNAME/edge-tts-mcp.git
+git clone https://github.com/s-n-n/edge-tts-mcp.git
 cd edge-tts-mcp
 python3 -m venv venv
 source venv/bin/activate
