@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [
-    { name = "Nikolay", email = "nikolay@s-n-n.dev" }
+    { name = "Nikolay", email = "nikolay.savenets@gmail.com" }
 ]
 keywords = ["mcp", "tts", "text-to-speech", "edge-tts", "claude", "ai"]
 classifiers = [
