@@ -106,7 +106,7 @@ Show current settings and available audio players.
 Set defaults via environment variables or `.env` file:
 
 ```bash
-EDGE_TTS_VOICE=uk-UA-PolinaNeural
+EDGE_TTS_VOICE=uk-UA-OstapNeural
 EDGE_TTS_RATE=+0%
 EDGE_TTS_VOLUME=+0%
 EDGE_TTS_PITCH=+0Hz
@@ -127,8 +127,8 @@ Auto-detected by platform:
 
 | Language | Voice | Gender |
 |----------|-------|--------|
-| Ukrainian 🇺🇦 | uk-UA-PolinaNeural | Female |
 | Ukrainian 🇺🇦 | uk-UA-OstapNeural | Male |
+| Ukrainian 🇺🇦 | uk-UA-PolinaNeural | Female |
 | English (US) | en-US-AriaNeural | Female |
 | English (US) | en-US-GuyNeural | Male |
 | German | de-DE-ConradNeural | Male |

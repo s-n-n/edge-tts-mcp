@@ -18,7 +18,7 @@ class Settings(BaseSettings):
 
     # Voice settings
     voice: str = Field(
-        default="uk-UA-PolinaNeural",
+        default="uk-UA-OstapNeural",
         description="Default TTS voice",
     )
     rate: str = Field(
