@@ -1,5 +1,6 @@
-# Edge TTS MCP - Give Claude a Voice!
+# mcp-edge-tts - Give Claude a Voice!
 
+[![PyPI](https://img.shields.io/pypi/v/mcp-edge-tts)](https://pypi.org/project/mcp-edge-tts/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](#)
@@ -20,7 +21,15 @@ Minimal cross-platform MCP server for text-to-speech using Microsoft Edge TTS.
 
 ## Installation
 
-### Windows
+### Via pip (recommended)
+
+```bash
+pip install mcp-edge-tts
+```
+
+### From source
+
+#### Windows
 
 ```cmd
 git clone https://github.com/s-n-n/edge-tts-mcp.git
@@ -30,7 +39,7 @@ venv\Scripts\activate
 pip install -e .
 ```
 
-### macOS / Linux
+#### macOS / Linux
 
 ```bash
 git clone https://github.com/s-n-n/edge-tts-mcp.git
@@ -44,7 +53,22 @@ pip install -e .
 
 Add to your MCP configuration:
 
-### Claude Code (`.mcp.json`)
+### If installed via pip
+
+```json
+{
+  "mcpServers": {
+    "edge-tts": {
+      "command": "python",
+      "args": ["-m", "edge_tts_mcp"]
+    }
+  }
+}
+```
+
+### If installed from source
+
+#### Claude Code (`.mcp.json`)
 
 **Windows:**
 ```json

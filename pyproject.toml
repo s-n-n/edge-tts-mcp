@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "edge-tts-mcp"
+name = "mcp-edge-tts"
 version = "0.1.0"
 description = "Minimal cross-platform MCP server for text-to-speech using Microsoft Edge TTS"
 readme = "README.md"
