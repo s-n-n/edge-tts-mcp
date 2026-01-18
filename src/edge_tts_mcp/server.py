@@ -25,7 +25,7 @@ async def speak(
 
     Args:
         text: Text to speak
-        voice: Voice name (e.g., en-US-AriaNeural, ru-RU-DmitryNeural)
+        voice: Voice name (e.g., en-US-AriaNeural, uk-UA-PolinaNeural)
         rate: Speech rate (-50% to +100%, e.g., +20%)
         volume: Volume (-50% to +100%, e.g., +10%)
         pitch: Pitch (-50Hz to +50Hz, e.g., +5Hz)
