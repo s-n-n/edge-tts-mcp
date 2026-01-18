@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mcp-edge-tts"
-version = "0.1.0"
+version = "0.1.1"
 description = "Minimal cross-platform MCP server for text-to-speech using Microsoft Edge TTS"
 readme = "README.md"
 license = "MIT"
@@ -46,10 +46,10 @@ Repository = "https://github.com/s-n-n/edge-tts-mcp"
 Issues = "https://github.com/s-n-n/edge-tts-mcp/issues"
 
 [project.scripts]
-edge-tts-mcp = "edge_tts_mcp:main"
+mcp-edge-tts = "mcp_edge_tts:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/edge_tts_mcp"]
+packages = ["src/mcp_edge_tts"]
 
 [tool.ruff]
 line-length = 100

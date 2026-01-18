@@ -60,7 +60,7 @@ Add to your MCP configuration:
   "mcpServers": {
     "edge-tts": {
       "command": "python",
-      "args": ["-m", "edge_tts_mcp"]
+      "args": ["-m", "mcp_edge_tts"]
     }
   }
 }
@@ -76,7 +76,7 @@ Add to your MCP configuration:
   "mcpServers": {
     "edge-tts": {
       "command": "C:\\path\\to\\edge-tts-mcp\\venv\\Scripts\\python.exe",
-      "args": ["-m", "edge_tts_mcp"]
+      "args": ["-m", "mcp_edge_tts"]
     }
   }
 }
@@ -88,7 +88,7 @@ Add to your MCP configuration:
   "mcpServers": {
     "edge-tts": {
       "command": "/path/to/edge-tts-mcp/venv/bin/python",
-      "args": ["-m", "edge_tts_mcp"]
+      "args": ["-m", "mcp_edge_tts"]
     }
   }
 }
