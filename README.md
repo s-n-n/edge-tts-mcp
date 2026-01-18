@@ -1,16 +1,22 @@
-# Edge TTS MCP
+# Edge TTS MCP - Give Claude a Voice! 🇺🇦
+
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)](#)
 
 Minimal cross-platform MCP server for text-to-speech using Microsoft Edge TTS.
 
-**Let Claude speak!**
+**Let Claude speak!** Works with Claude Code and Claude Desktop.
+
+Слава Україні! 🇺🇦
 
 ## Features
 
-- 300+ voices in 50+ languages
-- Cross-platform: Windows, macOS, Linux
-- Zero API keys required
-- Customizable: speed, volume, pitch
-- Works with Claude Code and Claude Desktop
+- 🎙️ 300+ voices in 50+ languages
+- 🖥️ Cross-platform: Windows, macOS, Linux
+- 🔑 Zero API keys required
+- ⚙️ Customizable: speed, volume, pitch
+- 🤖 Works with Claude Code and Claude Desktop
 
 ## Installation
 
@@ -71,7 +77,7 @@ Speak text aloud.
 
 ```
 speak("Hello, world!")
-speak("Привет!", voice="ru-RU-DmitryNeural")
+speak("Привіт!", voice="uk-UA-PolinaNeural")
 speak("Fast!", rate="+50%")
 ```
 
@@ -89,7 +95,7 @@ List voices, optionally filtered by language.
 
 ```
 list_available_voices()
-list_available_voices("ru")
+list_available_voices("uk")
 ```
 
 ### get_config
@@ -100,7 +106,7 @@ Show current settings and available audio players.
 Set defaults via environment variables or `.env` file:
 
 ```bash
-EDGE_TTS_VOICE=en-US-AriaNeural
+EDGE_TTS_VOICE=uk-UA-PolinaNeural
 EDGE_TTS_RATE=+0%
 EDGE_TTS_VOLUME=+0%
 EDGE_TTS_PITCH=+0Hz
@@ -121,10 +127,10 @@ Auto-detected by platform:
 
 | Language | Voice | Gender |
 |----------|-------|--------|
+| Ukrainian 🇺🇦 | uk-UA-PolinaNeural | Female |
+| Ukrainian 🇺🇦 | uk-UA-OstapNeural | Male |
 | English (US) | en-US-AriaNeural | Female |
 | English (US) | en-US-GuyNeural | Male |
-| Russian | ru-RU-DmitryNeural | Male |
-| Russian | ru-RU-SvetlanaNeural | Female |
 | German | de-DE-ConradNeural | Male |
 | French | fr-FR-DeniseNeural | Female |
 | Spanish | es-ES-AlvaroNeural | Male |
@@ -141,3 +147,7 @@ Run `list_available_voices()` for full list.
 ## License
 
 MIT
+
+---
+
+Made with ❤️ in Ukraine 🇺🇦

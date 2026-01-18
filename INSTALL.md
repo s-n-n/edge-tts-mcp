@@ -1,18 +1,18 @@
-# Установка Edge TTS MCP
+# Встановлення Edge TTS MCP 🇺🇦
 
-Кроссплатформенный MCP сервер для Text-to-Speech.
+Кросплатформний MCP сервер для Text-to-Speech.
 
-## Требования
+## Вимоги
 
 - Python 3.10+
 - Claude Code
 
 ## Windows
 
-### 1. Установи Python
-Скачай с https://python.org и установи (отметь "Add to PATH")
+### 1. Встанови Python
+Завантаж з https://python.org та встанови (відміть "Add to PATH")
 
-### 2. Клонируй и установи
+### 2. Клонуй та встанови
 ```cmd
 cd %USERPROFILE%
 git clone https://github.com/s-n-n/edge-tts-mcp.git
@@ -22,8 +22,8 @@ venv\Scripts\activate
 pip install -e .
 ```
 
-### 3. Настрой Claude Code
-В `.mcp.json` проекта:
+### 3. Налаштуй Claude Code
+В `.mcp.json` проєкту:
 ```json
 {
   "mcpServers": {
@@ -37,12 +37,12 @@ pip install -e .
 
 ## macOS
 
-### 1. Установи Python
+### 1. Встанови Python
 ```bash
 brew install python
 ```
 
-### 2. Клонируй и установи
+### 2. Клонуй та встанови
 ```bash
 cd ~
 git clone https://github.com/s-n-n/edge-tts-mcp.git
@@ -52,8 +52,8 @@ source venv/bin/activate
 pip install -e .
 ```
 
-### 3. Настрой Claude Code
-В `.mcp.json` проекта:
+### 3. Налаштуй Claude Code
+В `.mcp.json` проєкту:
 ```json
 {
   "mcpServers": {
@@ -67,12 +67,12 @@ pip install -e .
 
 ## Linux
 
-### 1. Установи Python и ffmpeg
+### 1. Встанови Python та ffmpeg
 ```bash
 sudo apt install python3 python3-venv ffmpeg
 ```
 
-### 2. Клонируй и установи
+### 2. Клонуй та встанови
 ```bash
 cd ~
 git clone https://github.com/s-n-n/edge-tts-mcp.git
@@ -82,8 +82,8 @@ source venv/bin/activate
 pip install -e .
 ```
 
-### 3. Настрой Claude Code
-В `.mcp.json` проекта:
+### 3. Налаштуй Claude Code
+В `.mcp.json` проєкту:
 ```json
 {
   "mcpServers": {
@@ -95,52 +95,56 @@ pip install -e .
 }
 ```
 
-## Проверка
+## Перевірка
 
-После перезапуска Claude Code:
+Після перезапуску Claude Code:
 ```
-mcp__edge-tts__speak(text="Привет! Установка прошла успешно.")
+speak("Привіт! Встановлення пройшло успішно.")
 ```
 
-## Настройка голоса
+## Налаштування голосу
 
-Через `.env` файл в папке проекта:
+Через `.env` файл в папці проєкту:
 ```
-EDGE_TTS_VOICE=ru-RU-DmitryNeural
+EDGE_TTS_VOICE=uk-UA-PolinaNeural
 EDGE_TTS_RATE=+20%
 ```
 
-Или при вызове:
+Або при виклику:
 ```
-mcp__edge-tts__speak(text="Текст", voice="ru-RU-SvetlanaNeural", rate="+25%")
+speak("Текст", voice="uk-UA-OstapNeural", rate="+25%")
 ```
 
-## Доступные голоса
+## Доступні голоси
 
-**Русские:**
-- `ru-RU-DmitryNeural` - мужской
-- `ru-RU-SvetlanaNeural` - женский
+**Українські 🇺🇦:**
+- `uk-UA-PolinaNeural` - жіночий (за замовчуванням)
+- `uk-UA-OstapNeural` - чоловічий
 
-**Английские:**
-- `en-US-GuyNeural` - мужской
-- `en-US-JennyNeural` - женский
+**Англійські:**
+- `en-US-AriaNeural` - жіночий
+- `en-US-GuyNeural` - чоловічий
 
-Полный список: `mcp__edge-tts__list_available_voices(language="en")`
+Повний список: `list_available_voices("uk")`
 
-## Аудио плееры
+## Аудіо плеєри
 
-Автоматический выбор по платформе:
-- **Windows**: PowerShell MediaPlayer (встроен)
-- **macOS**: afplay (встроен)
-- **Linux**: ffplay (нужен ffmpeg)
+Автоматичний вибір за платформою:
+- **Windows**: PowerShell MediaPlayer (вбудований)
+- **macOS**: afplay (вбудований)
+- **Linux**: ffplay (потрібен ffmpeg)
 
-## Troubleshooting
+## Вирішення проблем
 
-### Windows: нет звука
-Убедись что PowerShell работает: `powershell -Command "echo test"`
+### Windows: немає звуку
+Переконайся що PowerShell працює: `powershell -Command "echo test"`
 
-### macOS: нет звука
-Проверь afplay: `afplay /System/Library/Sounds/Ping.aiff`
+### macOS: немає звуку
+Перевір afplay: `afplay /System/Library/Sounds/Ping.aiff`
 
-### Linux: нет звука
-Установи ffmpeg: `sudo apt install ffmpeg`
+### Linux: немає звуку
+Встанови ffmpeg: `sudo apt install ffmpeg`
+
+---
+
+Слава Україні! 🇺🇦
