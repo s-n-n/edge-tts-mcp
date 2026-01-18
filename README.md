@@ -1,4 +1,4 @@
-# Edge TTS MCP - Give Claude a Voice! 🇺🇦
+# Edge TTS MCP - Give Claude a Voice!
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -8,7 +8,7 @@ Minimal cross-platform MCP server for text-to-speech using Microsoft Edge TTS.
 
 **Let Claude speak!** Works with Claude Code and Claude Desktop.
 
-Слава Україні! 🇺🇦
+Слава Україні!
 
 ## Features
 
@@ -127,8 +127,8 @@ Auto-detected by platform:
 
 | Language | Voice | Gender |
 |----------|-------|--------|
-| Ukrainian 🇺🇦 | uk-UA-OstapNeural 🇺🇦 | Male |
-| Ukrainian 🇺🇦 | uk-UA-PolinaNeural 🇺🇦 | Female |
+| Ukrainian | uk-UA-OstapNeural | Male |
+| Ukrainian | uk-UA-PolinaNeural | Female |
 | English (US) | en-US-AriaNeural | Female |
 | English (US) | en-US-GuyNeural | Male |
 | German | de-DE-ConradNeural | Male |
@@ -150,4 +150,4 @@ MIT
 
 ---
 
-Made with ❤️ in Ukraine 🇺🇦
+Made with ❤️ in Ukraine
