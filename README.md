@@ -127,8 +127,8 @@ Auto-detected by platform:
 
 | Language | Voice | Gender |
 |----------|-------|--------|
-| Ukrainian 🇺🇦 | uk-UA-OstapNeural | Male |
-| Ukrainian 🇺🇦 | uk-UA-PolinaNeural | Female |
+| Ukrainian 🇺🇦 | uk-UA-OstapNeural 🇺🇦 | Male |
+| Ukrainian 🇺🇦 | uk-UA-PolinaNeural 🇺🇦 | Female |
 | English (US) | en-US-AriaNeural | Female |
 | English (US) | en-US-GuyNeural | Male |
 | German | de-DE-ConradNeural | Male |
